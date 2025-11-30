@@ -1,0 +1,142 @@
+/* Author: Kaden Gardiner Email: kaden_gardiner@student.uml.edu */
+body {
+    background-color: rgb(180, 172, 149);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(78, 61, 5);
+    padding: 5px;
+    color: rgb(78, 61, 5);
+}
+
+#valueForm label {
+    color: rgb(78, 61, 5);
+    display: block;
+    margin: 8px 0 4px;
+    text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tableContainer {
+  display: box;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(78, 61, 5);
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+#tableContainer tr:nth-child(odd) {
+  background-color: #c1b88a;
+}
+
+#tableContainer tr:first-child {
+  background-color: #705f35;
+  color: white;
+  font-weight: bold;
+}
+
+#tableContainer th:first-child {
+  background-color: #705f35;
+  color: white;
+  font-weight: bold;
+}
+
+/* Form group spacing */
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-group input[type="number"] {
+  text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-top: 3px;
+}
+
+/* Slider styling */
+.slider {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Tab controls */
+#tab-controls {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+#deleteSelected {
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95em;
+}
+
+#deleteSelected:hover {
+  background-color: #b71c1c;
+}
+
+/* Tab close button */
+.tab-close {
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* Tab checkbox */
+.tab-checkbox {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* Table container in tabs */
+.table-container {
+  text-align: center;
+  margin: 20px;
+  overflow-x: auto;
+}
+
+/* Table styling */
+.table-container table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table-container tr:nth-child(odd) {
+  background-color: #c1b88a;
+}
+
+.table-container tr:first-child {
+  background-color: #705f35;
+  color: white;
+  font-weight: bold;
+}
+
+.table-container th:first-child {
+  background-color: #705f35;
+  color: white;
+  font-weight: bold;
+}
+
+.table-container td, .table-container th {
+  padding: 8px;
+  border: 1px solid #705f35;
+}
